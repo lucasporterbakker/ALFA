@@ -1275,3 +1275,34 @@ h1, h2, h3, h4, h5,
   .socials a:hover {
     color: RGBA(27, 81, 213, 1.00);
   }
+
+  .privacy-policy a {
+    color: #ffffff;
+    padding: 10px !important;
+  }
+
+  .privacy-policy a:hover {
+    color: #2c2c2c !important;
+  }
+
+.privacy-policy-banner{
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("../images/banner_1.jpg");
+  background-size: cover;
+
+}
+
+.intro-section-privacy h1{
+  color: #ffffff;
+  padding: 25px 0px 25px 0px;
+  font-size: 32px;
+}
+
+.intro-section-privacy h3{
+  color: #ffffff;
+  padding: 25px 0px 25px 0px;
+  font-size: 22px;
+}
+
+.intro-section-privacy p{
+  color: #ffffff;
+}
