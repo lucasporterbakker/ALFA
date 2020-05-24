@@ -1306,3 +1306,36 @@ h1, h2, h3, h4, h5,
 .intro-section-privacy p{
   color: #ffffff;
 }
+
+.intro-section-privacy-banner h1{
+  color: rgba(0,0,0,0.9);
+  padding: 25px 0px 25px 0px;
+  font-size: 32px;
+}
+
+.intro-section-privacy-banner h3{
+  color: rgba(0,0,0,0.9);
+  padding: 25px 0px 25px 0px;
+  font-size: 22px;
+}
+
+.intro-section-privacy-banner p{
+  color: rgba(0,0,0,0.9);
+}
+
+
+.nutrition-cta a {
+  color: #ffffff;
+  padding: 25px !important;
+}
+
+.nutrition-cta a:hover {
+  color: RGBA(205, 103, 90, 1.00) !important;
+}
+
+.nutrition-midway-banner {
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../images/artboard.jpg");
+  background-size: cover;
+  border-radius: 5px;
+  /* height: 50vh; */
+  position: relative; }
