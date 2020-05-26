@@ -1276,20 +1276,14 @@ h1, h2, h3, h4, h5,
     color: RGBA(27, 81, 213, 1.00);
   }
 
-  .privacy-policy a {
-    color: #ffffff;
-    padding: 10px !important;
-  }
 
-  .privacy-policy a:hover {
-    color: #2c2c2c !important;
-  }
+
 
 .privacy-policy-banner{
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("../images/banner_1.jpg");
   background-size: cover;
   line-height: 36px;
-  height: 95vh !important;
+  height: 100vh !important;
 }
 
 .coach-tiles-1{
@@ -1314,6 +1308,36 @@ h1, h2, h3, h4, h5,
   }
 }
 
+@media (max-width: 768px) {
+  .privacy-policy-links {
+    width: 100%;
+  }
+}
+
+.privacy-policy-links a {
+  color: #ffffff;
+  padding: 10px !important;
+  text-align: center;
+}
+
+.privacy-policy-links {
+  text-align: center !important;
+  position: relative;
+}
+
+.privacy-policy-links a:hover {
+  color: #2c2c2c !important;
+  font-weight: 500 !important;
+}
+
+.privacy-policy a {
+  color: #ffffff;
+  padding: 10px !important;
+}
+
+.privacy-policy a:hover {
+  color: #2c2c2c !important;
+}
 
 .intro-section-privacy h1{
   color: #ffffff;
@@ -1362,4 +1386,31 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   border-radius: 5px;
   /* height: 50vh; */
-  position: relative; }
+  position: relative;
+}
+
+.internal-h1-banner h1 {
+  padding-top: 70px;
+}
+
+@media (max-width: 768px) {
+  .internal-h1-banner h1 {
+    padding-top: 10px;
+  }
+}
+
+.personal-training-shots-1 {
+  background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url("../images/img_1.jpg") ;
+  background-size: cover;
+  border-radius: 5px;
+  height: 50vh;
+  position: relative;
+}
+
+.personal-training-shots-2 {
+  background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url("../images/img_4.jpg") ;
+  background-size: cover;
+  border-radius: 5px;
+  height: 50vh;
+  position: relative;
+}
