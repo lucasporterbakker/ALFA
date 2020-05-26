@@ -1276,6 +1276,16 @@ h1, h2, h3, h4, h5,
     color: RGBA(27, 81, 213, 1.00);
   }
 
+  .socials ul {
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .socials li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+  }
 
 
 
