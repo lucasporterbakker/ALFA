@@ -1286,6 +1286,13 @@ h1, h2, h3, h4, h5,
   height: 100vh !important;
 }
 
+.privacy-conditions-banner{
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("../images/banner_1.jpg");
+  background-size: cover;
+  line-height: 36px;
+  height: auto;
+}
+
 .coach-tiles-1{
   background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("../images/coach1.jpg");
   background-size: cover;
@@ -1400,7 +1407,7 @@ h1, h2, h3, h4, h5,
 }
 
 .personal-training-shots-1 {
-  background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url("../images/img_1.jpg") ;
+  background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url("../images/IMG_10.png") ;
   background-size: cover;
   border-radius: 5px;
   height: 50vh;
