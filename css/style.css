@@ -1507,3 +1507,11 @@ h1, h2, h3, h4, h5,
     border-color: RGBA(27, 81, 213, 1.00);
     background: RGBA(27, 81, 213, 1.00);
 }
+
+@media (max-width: 768px) {
+  .btn-outline-light {
+      color: RGBA(27, 81, 213, 1.00);
+      border-color: #ffffff;
+      background: #ffffff;
+  }
+}
