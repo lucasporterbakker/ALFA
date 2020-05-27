@@ -1365,6 +1365,15 @@ h1, h2, h3, h4, h5,
   text-align: center;
 }
 
+/* .privacy-policy-links a {
+  color: #2c2c2c;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  padding: 10px !important;
+  text-align: center;
+} */
+
 .privacy-policy-links {
   text-align: center !important;
   position: relative;
