@@ -1345,10 +1345,54 @@ h1, h2, h3, h4, h5,
 
 
 .privacy-policy-banner{
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("../images/banner_1.jpg");
+  /* background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url("../images/banner_1.jpg"); */
+  background-image: radial-gradient(circle at top left, RGBA(219, 96, 84, 0.95), RGBA(27, 81, 213, 0.95));
+  /* background-image: linear-gradient(RGBA(27, 81, 213, 0.95),RGBA(219, 96, 84, 0.95)), url(images/banner.jpg); */
   background-size: cover;
   line-height: 36px;
   height: 100vh !important;
+}
+
+
+.privacy-policy-banner{
+  background-image: radial-gradient(circle at top left, RGBA(219, 96, 84, 0.95), RGBA(27, 81, 213, 0.95));
+}
+
+@media (max-width: 768px) {
+  .privacy-policy-banner{
+    background: RGBA(25, 25, 25, 1.00);
+  }
+}
+
+.privacy-policy-banner-nutrition{
+  background: RGBA(27, 81, 213, 1.00);
+}
+
+@media (max-width: 768px) {
+  .privacy-policy-banner-nutrition{
+    background: RGBA(27, 81, 213, 1.00);
+  }
+}
+
+.privacy-policy-banner-personal{
+  /* background: RGBA(27, 81, 213, 1.00); */
+  background: RGBA(25, 25, 25, 1.00);
+}
+
+@media (max-width: 768px) {
+  .privacy-policy-banner-personal{
+    background: #ffffff;
+  }
+}
+
+.privacy-policy-banner-online{
+  background-image: radial-gradient(circle at top left, RGBA(219, 96, 84, 0.95), RGBA(27, 81, 213, 0.95));
+}
+
+@media (max-width: 768px) {
+  .privacy-policy-banner-online{
+    background-image: radial-gradient(circle at top left, RGBA(219, 96, 84, 0.95), RGBA(27, 81, 213, 0.95));
+  }
 }
 
 .quote-section-banner{
@@ -1480,11 +1524,33 @@ h1, h2, h3, h4, h5,
 
 .internal-h1-banner h1 {
   padding-top: 70px;
+  font-size: 72px;
 }
 
 @media (max-width: 768px) {
   .internal-h1-banner h1 {
     padding-top: 10px;
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .internal-h1-banner-white p {
+    color: RGBA(25, 25, 25, 1.00);
+  }
+}
+
+.internal-h1-banner-white h1 {
+  padding-top: 70px;
+  font-size: 72px;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .internal-h1-banner-white h1 {
+    color: RGBA(27, 81, 213, 1.00);
+    padding-top: 10px;
+    font-size: 42px;
   }
 }
 
@@ -1544,14 +1610,20 @@ h1, h2, h3, h4, h5,
   border-radius: 5px;
 }
 
-.blue-quote-block {
+.blue-quote-block p{
+  color: #ffffff;
+  font-size: 17.5px;
+}
+
+.blue-quote-block-dq {
   width: 100%;
   background: RGBA(17, 77, 221, 1.00);
-  padding: 40px;
+  padding: 25px;
   border-radius: 5px;
 }
 
-.blue-quote-block p{
+
+.blue-quote-block-dq p{
   color: #ffffff;
   font-size: 17.5px;
 }
