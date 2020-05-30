@@ -1525,12 +1525,14 @@ h1, h2, h3, h4, h5,
 .internal-h1-banner h1 {
   padding-top: 70px;
   font-size: 72px;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
   .internal-h1-banner h1 {
     padding-top: 10px;
     font-size: 42px;
+    font-weight: 600;
   }
 }
 
@@ -1543,6 +1545,7 @@ h1, h2, h3, h4, h5,
 .internal-h1-banner-white h1 {
   padding-top: 70px;
   font-size: 72px;
+  font-weight: 600;
   color: #ffffff;
 }
 
@@ -1550,6 +1553,7 @@ h1, h2, h3, h4, h5,
   .internal-h1-banner-white h1 {
     color: RGBA(27, 81, 213, 1.00);
     padding-top: 10px;
+    font-weight: 600;
     font-size: 42px;
   }
 }
