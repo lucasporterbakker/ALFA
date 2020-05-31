@@ -1381,17 +1381,17 @@ h1, h2, h3, h4, h5,
 
 @media (max-width: 768px) {
   .privacy-policy-banner-personal{
-    background: #ffffff;
+    /* background: #ffffff; */
   }
 }
 
 .privacy-policy-banner-online{
-  background-image: radial-gradient(circle at top left, RGBA(219, 96, 84, 0.95), RGBA(27, 81, 213, 0.95));
+  background: #ffffff;
 }
 
 @media (max-width: 768px) {
   .privacy-policy-banner-online{
-    background-image: radial-gradient(circle at top left, RGBA(219, 96, 84, 0.95), RGBA(27, 81, 213, 0.95));
+    background: #ffffff;
   }
 }
 
@@ -1542,7 +1542,35 @@ h1, h2, h3, h4, h5,
   }
 }
 
-.internal-h1-banner-white h1 {
+.internal-h1-banner-online h1 {
+  padding-top: 70px;
+  font-size: 72px;
+  font-weight: 600;
+  color: RGBA(27, 81, 213, 1.00);
+}
+
+@media (max-width: 768px) {
+  .internal-h1-banner-online h1 {
+    color: RGBA(27, 81, 213, 1.00);
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 42px;
+  }
+}
+
+.internal-h1-banner-online p {
+
+  color: RGBA(25, 25, 25, 1.00);
+}
+
+@media (max-width: 768px) {
+  .internal-h1-banner-online p {
+    color: RGBA(25, 25, 25, 1.00);
+
+  }
+}
+
+.internal-h1-banner-personal h1 {
   padding-top: 70px;
   font-size: 72px;
   font-weight: 600;
@@ -1550,8 +1578,8 @@ h1, h2, h3, h4, h5,
 }
 
 @media (max-width: 768px) {
-  .internal-h1-banner-white h1 {
-    color: RGBA(27, 81, 213, 1.00);
+  .internal-h1-banner-personal h1 {
+    color: #ffffff;
     padding-top: 10px;
     font-weight: 600;
     font-size: 42px;
