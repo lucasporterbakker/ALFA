@@ -773,7 +773,7 @@ h1, h2, h3, h4, h5,
       padding: 3em 0; } }
 
   .site-section-clients {
-    padding: 2em 0;
+    padding: .8em 0;
   }
     @media (max-width: 991.98px) {
       .site-section-clients {
@@ -1507,7 +1507,7 @@ h1, h2, h3, h4, h5,
 
 .nutrition-cta a {
   color: #ffffff;
-  padding: 25px !important;
+  padding: 20px !important;
 }
 
 .nutrition-cta a:hover {
