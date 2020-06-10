@@ -701,7 +701,7 @@ h1, h2, h3, h4, h5,
 
 
 .intro-section {
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("../images/banner_1.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("../images/banner_1.jpg");
   background-size: cover;
   position: relative; }
 
