@@ -1425,6 +1425,13 @@ h1, h2, h3, h4, h5,
   border-radius: 5px;
 }
 
+.coach-tiles-3{
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("../images/coach3.jpg");
+  background-size: cover;
+  height: 350px;
+  border-radius: 5px;
+}
+
 
 @media (max-width: 768px) {
   .privacy-policy-banner {
