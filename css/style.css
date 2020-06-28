@@ -714,7 +714,7 @@ h1, h2, h3, h4, h5,
       /* background-size: cover; */
       /* background: linear-gradient(RGBA(27, 81, 213, 0.95),RGBA(219, 96, 84, 0.95)); */
       /* background-image: none; */
-      background: #0748E5;
+      /* background: #0748E5; */
       background-image: radial-gradient(circle at top left, RGBA(219, 96, 84, 0.95), RGBA(27, 81, 213, 0.95));
     }
   }
@@ -1594,19 +1594,35 @@ h1, h2, h3, h4, h5,
   }
 }
 
-.personal-training-shots-1 {
-  background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url("../images/IMG_10.png") ;
+.nutrition-shots-1 {
+  background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url("../images/n-1.jpg") ;
   background-size: cover;
   border-radius: 5px;
-  height: 50vh;
+  height: 80vh;
+  position: relative;
+}
+
+.nutrition-shots-2 {
+  background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url("../images/n-2.jpg") ;
+  background-size: cover;
+  border-radius: 5px;
+  height: 80vh;
+  position: relative;
+}
+
+.personal-training-shots-1 {
+  background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url("../images/pt-1.jpg") ;
+  background-size: cover;
+  border-radius: 5px;
+  height: 80vh;
   position: relative;
 }
 
 .personal-training-shots-2 {
-  background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url("../images/img_4.jpg") ;
+  background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url("../images/pt-2.jpg") ;
   background-size: cover;
   border-radius: 5px;
-  height: 50vh;
+  height: 80vh;
   position: relative;
 }
 
